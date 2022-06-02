@@ -1,0 +1,1 @@
+Worker: python ./akenohimejima31.py
