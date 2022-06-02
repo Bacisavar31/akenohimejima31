@@ -20,10 +20,10 @@ try:
 except Exception:
     posted_pic_list = []
 
-timeout = 60 * 60  # pics will be posted every 24 hours
+timeout = 60 * 60  # pics will be posted every hour
 
 bot = Bot()
-bot.login(username="akenohimejima31", password="akenoaskim")
+bot.login(username=username, password=password)
 
 while True:
     folder_path = "./pics"
