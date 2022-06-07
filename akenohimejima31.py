@@ -20,7 +20,7 @@ try:
 except Exception:
     posted_pic_list = []
 
-timeout = 60 * 60  # pics will be posted every hour
+timeout = 24 * 60 * 60  # pics will be posted every hour
 
 bot = Bot()
 bot.login(username=username, password=password)
