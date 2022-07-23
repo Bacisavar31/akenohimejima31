@@ -3,12 +3,11 @@ import os
 import sys
 import time
 from io import open
-from dotenv import load_dotenv
 
-load_dotenv()
 
 username = os.getenv("USERNAME")
 password = os.getenv("PASSWORD")
+
 
 sys.path.append(os.path.join(sys.path[0], "../../"))
 from instabot import Bot  # noqa: E402
