@@ -23,7 +23,10 @@ except Exception:
 timeout = 24 * 60 * 60  # pics will be posted every hour
 
 bot = Bot()
+time.sleep(2)
 bot.login(username=username, password=password)
+time.sleep(2)
+
 
 while True:
     folder_path = "./pics"
